@@ -15,5 +15,12 @@
             android:textSize="23sp"
            />
 
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow_back"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
 
 </RelativeLayout>
