@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,13 +13,22 @@
         android:textSize="25sp"/>
 
     <TextView
+
         android:id="@+id/resposeId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/responseA"
         android:textSize="23sp"
-        android:textColor="#ff00"/>
+        android:textColor="#ff00"
+        android:layout_alignParentBottom="@+id/questionId"/>
 
+    <ImageView
+        android:id="@+id/plusBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/plus_btn"
+        android:contentDescription="TODO" />
 
-
-</LinearLayout>
+</RelativeLayout>
